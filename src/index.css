@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Libre Caslon Text', Georgia, serif;
+    --font-sans: 'Hanken Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #050505;
+    color: #F0F0F0;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-serif);
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Libre Caslon Text', Georgia, serif;
+}
+
+.font-sans-precision {
+  font-family: 'Hanken Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Artistic Flair Utility Classes */
+.serif {
+  font-family: 'Libre Caslon Text', Georgia, serif;
+}
+
+.serif-italic {
+  font-family: 'Libre Caslon Text', Georgia, serif;
+  font-style: italic;
+}
+
+.skew-text {
+  transform: skewX(-12deg);
+}
+
+.outline-text {
+  -webkit-text-stroke: 1px #F0F0F0;
+  color: transparent;
+}
+
+.outline-text-lime {
+  -webkit-text-stroke: 1px #C1FF72;
+  color: transparent;
+}
+
+.vertical-label {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.dot-grid {
+  background-image: radial-gradient(#F0F0F0 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.dot-grid-subtle {
+  background-image: radial-gradient(rgba(240, 240, 240, 0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.glass-panel {
+  background: rgba(10, 10, 10, 0.75);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-panel-light {
+  background: rgba(21, 21, 21, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.glass-pill {
+  background: rgba(15, 15, 15, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f1f1f;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C1FF72;
+}
+
+

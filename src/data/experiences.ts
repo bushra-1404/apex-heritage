@@ -1,0 +1,58 @@
+import { Experience } from '../types';
+
+export const EXPERIENCES: Experience[] = [
+  {
+    id: 'alpine-pass-sprint',
+    title: 'Alpine High-Pass Odyssey',
+    subtitle: 'Stelvio, Susten & Furka Passes',
+    location: 'Swiss & Italian Alps',
+    duration: '3 Days / 2 Nights',
+    distance: '680 Kilometers',
+    price: 6400,
+    image: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=1600&auto=format&fit=crop',
+    description: 'Carve through legendary mountain hairpins with a fleet of Apex V12 and Roadster supercars. Includes 5-star private chalet stays, helicopter luggage transfers, and Michelin-starred dining each evening.',
+    includedCars: ['Apex V12 Berlinetta', 'Apex Roadster Spider', 'Apex Corsa Stradale GT3'],
+    routeHighlights: [
+      'Stelvio Pass 48 hairpin ascent with private closed-road segment',
+      'Exclusive overnight stay at The Chedi Andermatt',
+      'Helicopter route scouting and luggage forward delivery',
+      'Professional chase car with technical support and photography crew',
+    ],
+  },
+  {
+    id: 'amalfi-coastline-tour',
+    title: 'Amalfi Coastline Grand Tour',
+    subtitle: 'Ravello to Positano Coastal Ribbon',
+    location: 'Southern Italy',
+    duration: '2 Days / 1 Night',
+    distance: '340 Kilometers',
+    price: 4800,
+    image: 'https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=1600&auto=format&fit=crop',
+    description: 'Cruise atop dramatic cliffs overlooking sapphire Mediterranean waters in classic open-top roadsters and grand tourers. Private yacht mooring in Capri included for mid-tour rendezvous.',
+    includedCars: ['Heritage Continental GT', 'Apex Roadster Spider', '1967 Apex 330 Prototipo'],
+    routeHighlights: [
+      'Sunset drive along the Amalfi Corniche with escorted convoy',
+      'Private clifftop lunch in Ravello overlooking the Gulf of Salerno',
+      'Private Riva speedboat transfer to Capri for evening gala',
+      'Dedicated concierge luggage and wine shipping service',
+    ],
+  },
+  {
+    id: 'silverstone-track-masterclass',
+    title: 'Silverstone Grand Prix Masterclass',
+    subtitle: 'Private Circuit Telemetry & Racing Instruction',
+    location: 'Northamptonshire, UK',
+    duration: '1 Full Day',
+    distance: 'Unlimited Track Laps',
+    price: 3900,
+    image: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=1600&auto=format&fit=crop',
+    description: 'Experience pure unadulterated downforce and high-speed cornering under 1-on-1 tutelage of former 24 Hours of Le Mans racing drivers. Live telemetry debriefings and tyre management masterclass.',
+    includedCars: ['Apex Corsa Stradale GT3', 'Apex Valkyrie E-Hybrid', 'Apex V12 Berlinetta'],
+    routeHighlights: [
+      'Full GP Circuit exclusive track session with zero traffic',
+      'Personal racing driver instructor in passenger seat with intercom',
+      'Comprehensive MoTeC telemetry debrief comparing your laps with pro baselines',
+      'Full bespoke FIA-certified racing suit and helmet to keep',
+    ],
+  },
+];
